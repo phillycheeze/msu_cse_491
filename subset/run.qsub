@@ -1,0 +1,25 @@
+#!/bin/bash -login
+#PBS -l walltime=00:25:00,nodes=1:ppn=20,feature=intel14
+#PBS -j oe
+#PBS -N subset_phil_ec
+#PBS -t 15,20,25,30
+
+cd ~/cse491/hw4/subset
+cd v2
+make
+#parallel version
+./subset ${PBS_ARRAYID} 1 > results/output_${PBS_ARRAYID}_1.txt
+./subset ${PBS_ARRAYID} 2 > results/output_${PBS_ARRAYID}_2.txt
+./subset ${PBS_ARRAYID} 4 > results/output_${PBS_ARRAYID}_4.txt
+./subset ${PBS_ARRAYID} 8 > results/output_${PBS_ARRAYID}_8.txt
+./subset ${PBS_ARRAYID} 12 > results/output_${PBS_ARRAYID}_12.txt
+./subset ${PBS_ARRAYID} 16 > results/output_${PBS_ARRAYID}_16.txt
+./subset ${PBS_ARRAYID} 20 > results/output_${PBS_ARRAYID}_20.txt
+
+#sequential version
+cd ../v1
+make
+./subset ${PBS_ARRAYID} > results/output_${PBS_ARRAYID}.txt
+
+
+qstat -f ${PBS_JOBID}

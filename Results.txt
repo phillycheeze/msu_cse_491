@@ -1,0 +1,181 @@
+Linear:
+
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 269.809
+Sustained Gflops Rate       : 2.52164
+Sustained Bandwidth (GB/sec): 2.88188
+
+Max: 0.999999 L2norm: 0.666018
+
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 23.9392
+Sustained Gflops Rate       : 28.4204
+Sustained Bandwidth (GB/sec): 32.4804
+
+Max: 0.979365 L2norm: 0.48637
+
+v1 - 8 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 15.6189
+Sustained Gflops Rate       : 43.5603
+Sustained Bandwidth (GB/sec): 49.7832
+
+Max: 0.979365 L2norm: 0.467717
+
+v1 - 16 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 11.8236
+Sustained Gflops Rate       : 57.5425
+Sustained Bandwidth (GB/sec): 65.7629
+
+Max: 0.979365 L2norm: 0.467717
+
+v1 - 32 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 11.4145
+Sustained Gflops Rate       : 59.605
+Sustained Bandwidth (GB/sec): 68.12
+
+Max: 0.979365 L2norm: 0.467717
+
+v2 - 8 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 9.87096
+Sustained Gflops Rate       : 68.9257
+Sustained Bandwidth (GB/sec): 78.7722
+
+Max: 0.979365 L2norm: 0.467717
+
+v2 - 16 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.45669
+Sustained Gflops Rate       : 91.2419
+Sustained Bandwidth (GB/sec): 104.276
+
+Max: 0.979365 L2norm: 0.467717
+
+v2 - 32 block
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.34488
+Sustained Gflops Rate       : 92.6308
+Sustained Bandwidth (GB/sec): 105.864
+
+Max: 0.979365 L2norm: 0.467717
+
+v3 - 8
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 9.16604
+Sustained Gflops Rate       : 74.2264
+Sustained Bandwidth (GB/sec): 84.8302
+
+Max: 0.979365 L2norm: 0.467717
+
+v3 - 16
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.44669
+Sustained Gflops Rate       : 91.3643
+Sustained Bandwidth (GB/sec): 104.416
+
+Max: 0.979365 L2norm: 0.467717
+
+v3 - 32
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.2052
+Sustained Gflops Rate       : 94.4266
+Sustained Bandwidth (GB/sec): 107.916
+
+Max: 0.979365 L2norm: 0.467717
+
+v4 - 8 block 8 tile
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 9.41679
+Sustained Gflops Rate       : 72.2499
+Sustained Bandwidth (GB/sec): 82.5713
+
+Max: 0 L2norm: 0
+
+v4 - 16 block 16 tile
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.18936
+Sustained Gflops Rate       : 94.6346
+Sustained Bandwidth (GB/sec): 108.154
+
+Max: 0.218045 L2norm: 0.0123021
+
+v4 - 32 block 32 tile
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 7.24077
+Sustained Gflops Rate       : 93.9628
+Sustained Bandwidth (GB/sec): 107.386
+
+Max: 0.961677 L2norm: 0.305615

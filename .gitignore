@@ -1,0 +1,5 @@
+~*.docx
+cardiacSimCUDA/bin
+cardiacSimCUDA/v1/bin
+*.o
+*.DS_Store
